@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(157, 155, 155);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    background-color: white;
+    width: 40%;
+    padding: 10px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+    color: crimson;
+}
+.area{
+    margin: 10px;
+    padding-top: 10px;
+}
+.cimg{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 10px;
+}
+.cimg img{
+    border: 1px solid black;
+    height: 60px;
+    width: 70%;
+}
+.reload{
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid rgb(102, 213, 250);
+}
+.reload i{
+    padding: 15px;
+    font-size: 28px;
+    background-color: rgb(102, 213, 250);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(102, 213, 250);
+}
+.captcha{
+    position: absolute;
+    font-size: 43px;
+    font-weight: bold;
+    left: 40px;
+    padding-right: 5px;
+    top:3px;
+    word-spacing: 10px;
+}
+.inputs{
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+}
+.text{
+    padding: 15px;
+    margin-right:5px;
+    font-size: larger;
+    width: 90%;
+}
+.check{
+    position: absolute;
+    font-size: larger;
+    color: white;
+    border: 0 ;
+    border-radius: 8px;
+    background-color: rgb(65, 200, 253);
+    padding:12px;
+    right: 15px;
+    top:14px;
+    cursor: pointer;
+}
+.demo{
+    text-align: center;
+    color: rgb(3, 136, 12);
+    font-size: larger;
+    font-weight: bold;
+}
+.demo2{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(230, 3, 3);
+}

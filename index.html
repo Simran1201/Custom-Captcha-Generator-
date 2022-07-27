@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Captcha Generator</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Custom Captcha Generating</h1>
+      <hr>
+      <div class="area">
+        <div class="cimg" id="div">
+          <img src="bg4.jpg" />
+          <span class="captcha"></span>
+          <button class="reload" id="reload"><i class="fa fa-refresh"></i></button>
+        </div>
+      </div>
+      <div class="inputs">
+        <input type="text" placeholder="Enter Captcha" required class="text" id="inp">
+      <button class="check" id="checks">Check</button>      
+      </div>
+      <p id="demo" class="demo"></p>
+      <p id="demo2" class="demo2"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
